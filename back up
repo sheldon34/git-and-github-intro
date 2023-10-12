@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="author" content="Sheldon Muboka">
+        <meta name="description" content="this page contain all things iam learning how
+         to create as l learn HTML.">
+<title>My first wed page.</title>
+<link rel="icon" href="html5.png"
+ type="image/x-icon">
+<link rel="stylesheet" href="main.css">
+    </head>
+
+    <body>
+        <h1>My goals for the year</h1>
+       <nav aria-leballedby="primary navigator">
+
+        <hr>
+
+     <ul>
+         
+              <br>
+                <a href="#html">learning Html</a>
+            
+            
+             <br>
+                <a href="#contact">contact me</a>
+        
+             <br>
+                <a href="#contact">contact me </a>
+        
+         
+</nav>
+<p>I am ready to learn html </p> 
+
+<figure>
+<img src="img/html.icon.jpeg" alt="html5logo" title=" i amlearnig html5" width="300"
+height="300">
+<figcaption>An icon of html5logo</figcaption>
+<p> 
+    <code>&it; h1 &lt;Hello world &lt;/h1&it;</code>
+</p>
+</figure>
+    
+
+<article="html">
+    <header>
+        <h2>learning html</h2>
+
+</header>
+
+
+    <hr>
+
+        <p>This is xdon first web page . Hello hello  how was yOUr day ?</p>
+
+        <section> <h3>HTML5</h3>
+          
+        <ol>
+            <li>... learn more about wed dev.</li>
+<li>...I planed my schedule.</li>
+<li>...I used resources from
+ <abbr title="mozzilla developer network">
+    <a href="https://developer.mozilla.org/">MDN</a></abbr></li>
+ 
+
+ </ol>
+ <aside>
+    <details>
+        <summary>Guess the  <mark>number of hours </mark>i code per day </summary>
+        <p>I start at <time 
+            datetime="08:00">8am</time>8 am and i code for <time datetime="PT3H">
+                
+            3 hours</time> every morning</p>
+    </details>
+ </aside>
+    <br>
+    <table>
+        <caption> My daily schedule</caption>
+        <thead>
+            <tr>
+             <th>&nbsp;</th>  
+        <th scope="col">Time</th>
+        <th scope="col">Activity</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <th scope="row"> Morning</th>
+        <td>
+            <time datetime="8:00">8am</time>-<time
+            datetime="11:00">11pm</time>
+        </td>
+        <td>Write code</td>
+    </tr>
+    <tr>
+        <th scope="row">Break</th>
+        <td>
+            <time datetime="11:00">11am</time>-<time
+            datetime="12:00">12pm</time>
+        </td>
+        <td>Eat lunch</td>
+    </tr>
+    
+    <tr>
+        <th scope="row">Afternoon</th>
+        <td>
+            <time datetime="12:00">12pm</time>-<time
+            datetime="17:00">5pm</time>
+        </td>
+        <td>study other  course</td>
+    </tr>
+    <tr>
+        <th scope="row">Afternoon</th>
+        <td rowspan="2">All other Courses</td>
+        <td>Free time</td>
+    </tr>
+    <tr>
+        <th scope="row">Night</th>
+        <td>sleep</td>
+    </tr>
+</tbody>
+<tfooter>
+    <tr>
+        <td colspan="3"> And that is what i do 
+             everyday, 5 days a week .Just eat ,sleep,code..
+              and recharge!</td>
+    </tr>
+</tfooter>
+    </table>
+    
+ </section>
+</article>
+
+        <hr>
+
+        <main>
+
+<article id="vacation">
+        <h3>I am also planning a vaction</h3>                                       
+        
+<p>I have been <em>really working hard and i need a get a way period</em>.</p>
+<p>i live at <abbr title="kansas">KS</abbr>  so i want visit a <section>
+<h3>Place i'd like  to vist</h3>
+
+<li><p>I heard  good things about the Maasi mara</p> 
+    <figure>
+    <img src="img/hawaii-TROPICUS0522-d2693c2ca25247a6ac28cee90c3c9297.webp" 
+    alt="maasai mara pic"tittle= "i want to visit maasi mara national pack" width="1500" height="1000 " 
+    loading="eager" loading="lazy"></li></figure>
+    <figcaption>
+        maasai mara pack
+    </figcaption>
+<li><p>I have had good things about here </li>
+    <address>
+   Diani beach in Mombasa <br>
+    kakamega forest in kakamega <br>
+    Hells gate in Nakuru <br>
+    Nairobi national park in Nairobi <br>
+    
+</address>
+<figure>
+<img src="img/391354_130215204645.jpg" alt="diani beach" title="mombasa raha" loading="lazy" 
+width="520"height="392">
+</figure>
+<figcaption> diani beach</figcaption>
+</li> 
+
+</section>
+</p>
+<!-- TODO:Add more places-->
+
+
+<section>
+<h2>Places i would like to avoid </h2>
+
+<dl>
+       <dt>North pole</dt>
+        <dd>I hear that this is <strong>cold</strong></dd>
+        <dt>South pole </dt>
+        <dd>i hear that this is also cold</dd>
+         <dt>Mountain tops</dt>
+       <dd>These are also cold</dd>
+</dl>
+</section>
+</article>
+<hr>
+<article id="contact">
+    <h2>contact me </h2>
+    <p>i'd really like to hear from you</p>
+    <form action="http;//httpbin.org/get"method="get"> 
+        <p>
+        <label for="firstname">firstname
+        </label>
+        <input type="text" name="first" id="firstname" Placeholder="XDON"
+        autocomplete="on"required autofocus>
+    </p>
+    <p>
+        <label for="lastname">lastname</label>
+        <input type="text" name="last" id="lastname" placeholder="KABOM"
+        autocomplete="on" requied >
+    </p>
+    <p>
+<label for="Password"> Password </label>
+<input type="Password" name="Password" id="Password" placeholder="******"
+required>
+
+
+    </p>
+    <p>
+    <label for="phone"> phone</label>
+    <input type="tel" name="phone" id="phone"
+    place holder="2222222222"
+    pattern="[0-9] {3} [0-9]{3} [0-9]{4}" required>
+</p>
+<p>
+    <label for="decade">Favorite decade</label>
+    <input type="number" name="decade" min="1950" max="2020" step="10"
+     value="1980">
+</p>
+<p>
+<label for="coffee"> Favorite coffee</label>
+<select name="coffee" id="coffee" multiple size="5">
+    <optgroup label="coffee">
+    <option value="regular coffee">Regular Coffee</option>
+    <option value="iced coffee"> Iced coffee</option>
+</optgroup>
+ <optgroup  label=Espresso Drinks>
+    <option value="cappucino">Cappuciono</option>
+    <option value="cartado">Cartado</option>
+    <option value="americano">Americano</option>
+</optgroup>
+    <option value="others">Others</option>
+</select>
+</p>
+    </form>
+</article>
+</main>
+<hr>
+<footer>
+<pi></pi>
+&lt;,&lt;&copy;<a href="about.html" >Sheldon Muboka</a> &gt;&gt;&gt;
+<a href="#"> Back to top</a></p>
+</footer>
+    </body>
+
+</html>
